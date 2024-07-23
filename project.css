@@ -1,0 +1,258 @@
+*{
+     margin:0;
+     padding:0;
+}
+.main{
+     background-image: url('https://images.unsplash.com/photo-1488441770602-aed21fc49bd5?q=80&w=2338&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+     width:100%;
+     background-position: center;
+     background-size: cover;
+     height:109vh;
+    
+}
+.nbar{
+      width: 1200px;
+      height:75px;
+      margin:auto;
+}
+.iconn{
+     width:200px;
+     float:left;
+     height:70px;
+}
+.logo{
+     color: pink;
+     font-size: 35px;
+     padding-left:20px;
+     font-style:italic;
+     float:left;
+     padding-top: 10px;
+  
+}
+.menu{
+     width:500px;
+     float:left;
+     height:70px;
+}
+ul{
+     float:left;
+    display:flex;
+     /* justify-content: center; */
+     /* align-items: center; */
+
+}
+li{
+     margin:20px;
+     padding:10px;
+     list-style-type: none;
+     font-size: 15px;
+}
+a{
+     text-decoration: none;
+     color: darkblue;
+     font-weight: bold;
+     transition-duration: 0.5s ;
+     transition-timing-function:ease-in-out ;
+}
+a:hover{
+     color: whitesmoke;
+}
+.search{
+      width:300px;
+      float: left;
+      margin-left:200px;
+}
+.srch{
+   
+     font-weight: bolder;
+     width:200px;
+     height:40px;
+     background: transparent;
+     border: 1px solid pink;
+     margin-top: 14px;
+     font-size: 20px;
+     text-align: center;
+     color: black;
+      float:left;
+     padding-left: 10px;
+     
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+}
+.btn{
+     width:100px;
+     height:40px;
+     background-color:pink ;
+     border: 2px solid pink;
+     margin-top: 13px;
+     color: white;
+     font-size: 15px;
+     border-bottom-right-radius: 5px;
+     border-top-right-radius: 5px;
+
+}
+.btn:focus{
+     outline: none;
+}
+.srch:focus{
+     outline: none;
+}
+.content{
+     width:1200px;
+     height:auto;
+     margin:auto;
+     color: white;
+     position:relative;
+     
+}
+.par{
+    padding-left:10px;
+    padding-bottom:20px;
+    font-style: bold;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    /* text-transform: capitalize; */
+    font-family: Arial;
+    line-height: 30px;
+   
+}
+h1{
+     font-family:  'Times New Roman';
+     font-size: 50px;
+     padding-left: 20px;
+     margin-top:9%;
+     letter-spacing: 2px;
+     text-shadow: 5px 5px 5px white;
+}
+.cn{
+     width:160px;
+     height:40px;
+     background-color: pink;
+     border: none;
+     margin-left: 10px;
+     margin-bottom: 10px;
+     font-size: 20px;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: 2s ease;
+
+}
+.content .cn a{
+     text-decoration: none;
+     color: black;
+     /* transition-duration: 3s;
+     transition-timing-function: ease; */
+
+}
+.cn:hover{
+  background-color: darkblue;
+}
+.content span{
+     color: pink;
+     font-size: 60px;
+}
+.form{
+     width:270px;
+     height:370px;
+     background-color: pink;
+     position:absolute;
+     top: -10px;
+     left: 890px;
+     border-radius: 10px;
+     padding:25px;
+}
+.form h2{
+     width:220px;
+     font-family: sans-serif;
+     text-align: center;
+     color: black;
+     background-color:white ;
+     padding:8px;
+     margin:2px;
+     border-radius:10px;
+}
+.form input{
+     width:240px;
+     height:30px;
+     background:transparent;
+     /* margin:5px; */
+     border: 1px solid black;
+     border-top: none;
+     border-right: none;
+     color: black;
+     border-left: none;
+     font-size: 15px;
+     letter-spacing: 1 px;
+     margin-top: 20px;
+     font-family: sans-serif;
+
+
+}
+.form input:focus{
+     outline:none;
+}
+::placeholder{
+     color: white;
+     font-family: Arial;
+}
+.btnn{
+     width:240px;
+     height:40px;
+     background-color: black;
+     margin-top: 30px;
+     border:none;
+     font-size: 18px;
+     border-radius: 10px;
+     cursor: pointer;
+
+
+}
+.btnn a{
+     color: white;
+}
+/* .btnn:hover{
+     background: black;
+} */
+.btnn a{
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+}
+ .link{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 19px;
+     padding-top: 20px;
+     text-align: center;
+}
+.form .link a{
+     text-decoration: none;
+     color: black;
+}
+.liw{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     text-align: center;
+}
+.icon{
+     width:300px;
+}
+.icon a{
+     text-decoration: none;
+     color:white;
+}
+.icon ion-icon{
+     color: white;
+     font-size: 40px;
+     padding-left: 10px;
+     padding-top: 10px;
+}
+.icon ion-icon:hover{
+     color: black;
+}
+
+
+
+
+
+
+
